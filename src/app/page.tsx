@@ -6,6 +6,7 @@ import styles from "./page.module.css";
 export default function MenuPage() {
   return (
     <main className={styles.page}>
+      <div className={styles.statusStrip} aria-hidden />
       <header className={styles.header}>
         <p className={styles.eyebrow}>SST Smartphone</p>
         <h1 className={styles.title}>เลือกซีน</h1>

@@ -100,3 +100,22 @@
   font-size: 13px;
   color: var(--muted);
 }
+
+/* Installed on an iPhone the status bar is transparent with white text, so the
+   light menu gets a dark band behind it. */
+.statusStrip {
+  display: none;
+}
+
+@media (display-mode: standalone) {
+  .statusStrip {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: env(safe-area-inset-top);
+    background: #0e0e10;
+    z-index: 5;
+  }
+}
