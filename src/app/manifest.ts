@@ -3,7 +3,7 @@ import type { MetadataRoute } from "next";
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "SST Smartphone",
-    short_name: "SST",
+    short_name: "SST4",
     description: "Pick a scene.",
     start_url: "/",
     scope: "/",

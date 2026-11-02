@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   manifest: "/manifest.webmanifest",
   // "black-translucent": an installed app draws its content under the iPhone
   // status bar, so the camera scene fills the whole screen.
-  appleWebApp: { capable: true, title: "SST", statusBarStyle: "black-translucent" },
+  appleWebApp: { capable: true, title: "SST4", statusBarStyle: "black-translucent" },
   icons: {
     icon: [
       { url: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
