@@ -14,7 +14,7 @@ export type Scene = {
 export const SCENES: Scene[] = [
   {
     id: "live",
-    title: "Live",
+    title: "620 - Live มือถือโต",
     description: "หน้าจอไลฟ์สด กล้องเต็มจอ คนดู หัวใจ และคอมเม้นที่ไหลเข้ามา",
     tint: ["#ff7a9c", "#7a5cff"],
   },
